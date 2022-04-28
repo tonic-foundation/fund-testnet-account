@@ -1,0 +1,21 @@
+{
+  "name": "fund-testnet-account",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "author": "renthog",
+  "license": "MIT",
+  "scripts": {
+    "fund": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "@tonic-foundation/config": "^0.3.13",
+    "near-api-js": "^0.44.2",
+    "ts-command-line-args": "^2.2.1"
+  },
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.2",
+    "@types/node": "^17.0.29",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  }
+}

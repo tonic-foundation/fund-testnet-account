@@ -8,7 +8,7 @@
     "fund": "ts-node src/index.ts"
   },
   "dependencies": {
-    "@tonic-foundation/config": "^0.3.13",
+    "@tonic-foundation/config": "^1.0.0",
     "near-api-js": "^0.44.2",
     "ts-command-line-args": "^2.2.1"
   },

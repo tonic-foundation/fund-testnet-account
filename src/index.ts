@@ -26,7 +26,7 @@ async function run() {
 
   for (let i = 0; i < args.iterations; i++) {
     const keyStore = new InMemoryKeyStore();
-    const near = new nearApi.Near({ ...getNearConfig('testnet'), keyStore });
+    const near = new nearApi.Near({ ...getNearConfig('testnet'), keyStore, headers: {} });
     const keyPair = KeyPair.fromRandom('ed25519');
 
     const tempAccountId = `temp-${Date.now()}.testnet`;
